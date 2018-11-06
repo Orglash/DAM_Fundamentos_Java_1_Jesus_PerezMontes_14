@@ -42,5 +42,7 @@ public class Main {
         }
         //Imprimimos el resultado.
         System.out.printf("La calificacion obtenida es:\n%s", nota);
+        //Cerramos el scanner.
+        sc.close();
     }
 }
